@@ -1,11 +1,11 @@
 # Daily Quotes
 Flutter App for Daily Quotes
 
-Written in Dart/Flutter and using the Quotes and Wikipedia API to generate Quotes of famous persons throughout history and get information about the author via WikiPedia.
+Written in Dart/Flutter, using a API for Quote Data (florinbobis-quotes-net.hf.space) and Wikipedia API to generate Quotes of famous persons throughout history and get information about the author via Wikipedia.
 Added simple Animations and changing Colors to make it more soothing for the eye.
 
 Core Packages used:
- - Dio (for Http Netowrk Request)
+ - Dio (for Http Network Request)
  - Bloc (used Cubits for Quote Data/State Management)
  - Json Serializer/Annotations (to parse Wikipedia API Responses)
  - Auto Route (Routing between different Screens/Widgets)
