@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      source_gen|combining_builder:
+        generate_for:
+          - lib/data/**.dart
+        options:
+          build_extensions:
+            '^lib/{{}}.dart': 'lib/generated/{{}}.g.dart'
+      auto_route_generator:auto_route_generator:
+        generate_for:
+          - lib/screens/**.dart
+      auto_route_generator:auto_router_generator:
+        generate_for:
+          - lib/router/stack_router.dart
